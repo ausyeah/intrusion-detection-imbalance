@@ -1,0 +1,7 @@
+﻿tag,seed,n_features,valid_macro_f1,test_macro_f1,test_balanced_acc,test_accuracy,fit_s,infer_test_s,model_only_mb
+top194,42,194,0.6094,,,,29.2,,7.65
+top128,42,128,0.612,,,,24.2,,7.84
+top64,42,64,0.6089,,,,15.4,,7.92
+top32,42,32,0.6125,,,,11.3,,7.82
+top16,42,16,0.5483,,,,9.1,,7.46
+top8,42,8,0.3111,,,,7.0,,4.48

@@ -1,0 +1,7 @@
+﻿comparison,n_overlap,jaccard
+seed0_vs_v1,29,0.829
+seed1_vs_v1,30,0.882
+seed2_vs_v1,30,0.882
+seed0_vs_seed1,31,0.939
+seed0_vs_seed2,30,0.882
+seed1_vs_seed2,31,0.939

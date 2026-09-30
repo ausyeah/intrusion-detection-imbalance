@@ -1,0 +1,81 @@
+# 原始数据与模型产物（体积大 / 第三方所有，不入库）
+data/raw/
+data/processed/
+runs/
+models/
+checkpoints/
+*.parquet
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.npy
+*.npz
+
+# 成品文档（预印本 PDF/DOCX 已在 ChinaXiv 公开，仓库不再分发）
+paper/preprint/
+paper/thesis/
+paper/template_chinaxiv/
+*.docx
+*.doc
+*.pdf
+
+# 个人身份材料（绝不入库）
+*学籍*
+*验证报告*
+*身份识别*
+*身份证*
+paper/*提交清单*
+
+# 校内 / 官方文件（非本人作品，第三方版权）
+paper/北京邮电大学*
+*工作条例*
+*指导手册*
+*工作安排*
+
+# 求职 / 升学规划
+paper/*复试*
+*答辩准备*
+paper/*下一篇*
+*上岸*
+*导师*
+*调剂*
+*开题*
+*求职*
+*简历*
+*内网*
+*密码*
+*账号*
+
+# 安装包与压缩产物
+*.exe
+*.msi
+*.apk
+*.dmg
+*.iso
+tmp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# 环境与本地配置（可能含真实密钥）
+.env
+.env.*
+*.token
+secrets/
+local.properties
+config.local.json
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+*.swp
+.mimosa/
+.workbuddy/

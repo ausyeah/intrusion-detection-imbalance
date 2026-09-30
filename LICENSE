@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2026 Hao Huang (黄浩)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+SCOPE NOTICE / 适用范围说明
+
+This MIT license covers **the code, configuration, reports and figures in this
+repository only**.
+
+本 MIT 许可证**仅覆盖本仓库中的代码、配置、报告与图表**。
+
+The thesis text and preprint are published separately under CC BY 4.0 via
+ChinaXiv and are NOT covered by this license:
+
+    黄浩. 面向类别不平衡的网络入侵检测方法比较与轻量化改进研究.
+    中国科学院科技论文预发布平台, 2026. DOI: 10.12074/202609.00078
+    https://doi.org/10.12074/202609.00078
+
+论文正文与预印本通过 ChinaXiv 以 CC BY 4.0 单独发布，**不受本许可证约束**；
+本仓库仅收录其章节 Markdown 供检索与引用，内容版权归属原权利人。
+
+The UNSW-NB15 dataset is NOT distributed here. It is third-party material;
+see `data/README.md` for the source, SHA-256 fingerprints and required citation.
+
+UNSW-NB15 数据集不在本仓库分发，属第三方材料，来源、SHA-256 指纹与引用要求见
+`data/README.md`。

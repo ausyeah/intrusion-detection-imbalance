@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "n_estimators": 300,
+  "max_depth": 6,
+  "learning_rate": 0.1,
+  "LR": {
+    "max_iter": 1000
+  },
+  "data": "data/processed/*.parquet (02_preprocess.py, seed 42)",
+  "note": "单种子基线；正式多方法矩阵自第 3 周起跑 seeds [0,1,2]"
+}

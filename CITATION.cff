@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset/code, please cite the preprint below."
+title: "面向类别不平衡的网络入侵检测方法比较与轻量化改进研究"
+abstract: >-
+  在统一防泄漏协议下，对类别不平衡处理方法（类别权重 / ROS / SMOTE）在
+  UNSW-NB15 上做 3 模型 × 4 方法 × 3 种子的受控系统比较（36 组），并引入
+  验证集阈值校准与特征筛选轻量化两项扩展对照、四项稳健性检验（含针对确定性
+  模型的切分方差补测）。
+type: software
+license: MIT
+repository-code: "https://github.com/ausyeah/Network-Intrusion-Detection"
+keywords:
+  - network intrusion detection
+  - class imbalance
+  - SMOTE
+  - cost-sensitive learning
+  - XGBoost
+  - reproducibility
+authors:
+  - family-names: Huang
+    given-names: Hao
+    affiliation: 北京邮电大学 信息与通信工程学院
+    orcid: ""

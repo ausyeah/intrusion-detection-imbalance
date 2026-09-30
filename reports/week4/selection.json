@@ -1,0 +1,39 @@
+{
+  "selection_basis": "valid_macro_f1_mean (3 seeds) — 测试集不参与选型",
+  "selection": {
+    "LR": "SMOTE",
+    "XGBoost": "SMOTE",
+    "MLP": "SMOTE"
+  },
+  "valid_macro_f1": {
+    "LR": 0.4189,
+    "XGBoost": 0.6277,
+    "MLP": 0.5337
+  },
+  "test_macro_f1_descriptive": {
+    "LR": 0.3672,
+    "XGBoost": 0.5041,
+    "MLP": 0.4192
+  },
+  "seed": 0,
+  "model_size": [
+    {
+      "model": "LR",
+      "method": "SMOTE",
+      "model_only_mb": 0.02,
+      "pipeline_mb": 0.18
+    },
+    {
+      "model": "XGBoost",
+      "method": "SMOTE",
+      "model_only_mb": 8.59,
+      "pipeline_mb": 8.75
+    },
+    {
+      "model": "MLP",
+      "method": "SMOTE",
+      "model_only_mb": 0.43,
+      "pipeline_mb": 0.59
+    }
+  ]
+}

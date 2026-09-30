@@ -1,0 +1,9 @@
+# 全局路径与种子约定。脚本用 argparse 接收覆盖值，默认遵循本文件。
+data_raw: data/raw
+data_processed: data/processed
+figures: figures
+runs: runs
+
+# 全局默认种子；第 3 周起正式实验按 seeds: [0, 1, 2] 各跑一遍
+random_state: 42
+seeds: [0, 1, 2]

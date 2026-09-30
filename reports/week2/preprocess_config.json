@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "drop_cols": [
+    "id"
+  ],
+  "cat_cols": [
+    "proto",
+    "service",
+    "state"
+  ],
+  "n_features_after_encode": 194,
+  "sizes": {
+    "train": 140272,
+    "valid": 35069,
+    "test": 82332
+  },
+  "leakage_discipline": "encoders fitted on train split only; resampling deferred to experiment-time on train only"
+}

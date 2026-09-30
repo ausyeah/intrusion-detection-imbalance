@@ -1,0 +1,25 @@
+# 第 3 周不平衡实验矩阵的模型超参（红队 S10：从脚本移入配置，使"协议先于结果固定"可审计）
+#
+# 确定时点与依据（溯源）：
+#   - LR/XGBoost 超参继承自第 2 周基线（reports/week2/baseline_config.json），
+#     在第 3 周任何不平衡实验运行之前确定（git 提交 6df08e5，第 3 周实验前冻结）。
+#   - MLP 超参在第 3 周运行开始前锁定（同一次提交内的 05_run_experiments.py docstring）。
+#   - 局限（红队 S10）：超参未做 方法×超参 敏感性搜索；"方法排序是否随超参改变"
+#     列入第 6 周鲁棒性实验（TODO）。
+LR:
+  max_iter: 1000
+XGBoost:
+  n_estimators: 300
+  max_depth: 6
+  learning_rate: 0.1
+  tree_method: hist
+  objective: multi:softprob
+MLP:
+  hidden_layer_sizes: [64, 64]
+  max_iter: 100
+  early_stopping: true
+  n_iter_no_change: 10
+  batch_size: 1024
+SMOTE:
+  k_neighbors: 5   # 默认值，未做敏感性分析（红队 S6）
+seeds: [0, 1, 2]

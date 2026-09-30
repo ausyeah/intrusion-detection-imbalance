@@ -1,0 +1,13 @@
+﻿model,method,fit_s_mean,infer_test_s_mean,model_mb,n_train_after
+LR,ROS,173.57,0.04,3.61,448000.0
+LR,SMOTE,178.67,0.04,0.18,140272.0
+LR,class_weight,38.47,0.04,0.02,140272.0
+LR,none,33.97,0.04,0.02,140272.0
+MLP,ROS,131.5,0.08,4.02,448000.0
+MLP,SMOTE,136.73,0.07,0.59,140272.0
+MLP,class_weight,19.4,0.07,0.43,140272.0
+MLP,none,23.17,0.07,0.43,140272.0
+XGBoost,ROS,67.73,0.41,11.38,448000.0
+XGBoost,SMOTE,100.07,0.43,8.73,140272.0
+XGBoost,class_weight,27.0,0.39,7.67,140272.0
+XGBoost,none,29.3,0.46,7.5,140272.0

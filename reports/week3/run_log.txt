@@ -1,0 +1,47 @@
+[ok] LR__none__seed0: macroF1=0.3389 balAcc=0.3847 fit=33.5s
+[ok] LR__none__seed1: macroF1=0.3389 balAcc=0.3847 fit=35.1s
+[ok] LR__none__seed2: macroF1=0.3389 balAcc=0.3847 fit=33.3s
+[ok] LR__class_weight__seed0: macroF1=0.3543 balAcc=0.5534 fit=39.2s
+[ok] LR__class_weight__seed1: macroF1=0.3543 balAcc=0.5534 fit=38.1s
+[ok] LR__class_weight__seed2: macroF1=0.3543 balAcc=0.5534 fit=38.1s
+[ok] LR__ROS__seed0: macroF1=0.3582 balAcc=0.5543 fit=168.4s
+[ok] LR__ROS__seed1: macroF1=0.3576 balAcc=0.5564 fit=179.3s
+[ok] LR__ROS__seed2: macroF1=0.3579 balAcc=0.5563 fit=173.0s
+[ok] LR__SMOTE__seed0: macroF1=0.3677 balAcc=0.565 fit=186.7s
+[ok] LR__SMOTE__seed1: macroF1=0.3664 balAcc=0.5622 fit=173.2s
+[ok] LR__SMOTE__seed2: macroF1=0.3676 balAcc=0.564 fit=176.1s
+[ok] XGBoost__none__seed0: macroF1=0.5097 balAcc=0.5497 fit=28.9s
+[ok] XGBoost__none__seed1: macroF1=0.5097 balAcc=0.5497 fit=31.6s
+[ok] XGBoost__none__seed2: macroF1=0.5097 balAcc=0.5497 fit=27.4s
+[ok] XGBoost__class_weight__seed0: macroF1=0.5123 balAcc=0.6549 fit=27.2s
+[ok] XGBoost__class_weight__seed1: macroF1=0.5123 balAcc=0.6549 fit=26.9s
+[ok] XGBoost__class_weight__seed2: macroF1=0.5123 balAcc=0.6549 fit=26.9s
+[ok] XGBoost__ROS__seed0: macroF1=0.5146 balAcc=0.6476 fit=66.4s
+[ok] XGBoost__ROS__seed1: macroF1=0.5091 balAcc=0.6416 fit=67.8s
+[ok] XGBoost__ROS__seed2: macroF1=0.5085 balAcc=0.648 fit=69.0s
+[ok] XGBoost__SMOTE__seed0: macroF1=0.5057 balAcc=0.6098 fit=98.8s
+[ok] XGBoost__SMOTE__seed1: macroF1=0.5036 balAcc=0.5987 fit=99.8s
+[ok] XGBoost__SMOTE__seed2: macroF1=0.5031 balAcc=0.6021 fit=101.6s
+[ok] MLP__none__seed0: macroF1=0.4162 balAcc=0.438 fit=20.3s
+[ok] MLP__none__seed1: macroF1=0.4276 balAcc=0.4458 fit=26.6s
+[ok] MLP__none__seed2: macroF1=0.4295 balAcc=0.4538 fit=22.6s
+[ok] MLP__class_weight__seed0: macroF1=0.4245 balAcc=0.6198 fit=21.8s
+[ok] MLP__class_weight__seed1: macroF1=0.3978 balAcc=0.6063 fit=19.4s
+[ok] MLP__class_weight__seed2: macroF1=0.393 balAcc=0.6005 fit=17.0s
+[ok] MLP__ROS__seed0: macroF1=0.4354 balAcc=0.5904 fit=138.4s
+D:\ZCode-work\毕设论文\.venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[ok] MLP__ROS__seed1: macroF1=0.4302 balAcc=0.5959 fit=144.2s
+[ok] MLP__ROS__seed2: macroF1=0.4282 balAcc=0.6034 fit=111.9s
+[ok] MLP__SMOTE__seed0: macroF1=0.4182 balAcc=0.5805 fit=143.8s
+[ok] MLP__SMOTE__seed1: macroF1=0.4186 balAcc=0.5851 fit=127.1s
+[ok] MLP__SMOTE__seed2: macroF1=0.4208 balAcc=0.5539 fit=139.3s
+
+完成 36/36 组；失败 0 组
+
+测试集 Macro-F1 均值（3 种子）：
+method      ROS   SMOTE  class_weight    none
+model                                        
+LR       0.3579  0.3672        0.3543  0.3389
+MLP      0.4313  0.4192        0.4051  0.4244
+XGBoost  0.5107  0.5041        0.5123  0.5097
