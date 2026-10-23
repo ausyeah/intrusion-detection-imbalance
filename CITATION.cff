@@ -8,7 +8,7 @@ abstract: >-
   模型的切分方差补测）。
 type: software
 license: MIT
-repository-code: "https://github.com/ausyeah/Network-Intrusion-Detection"
+repository-code: "https://github.com/ausyeah/intrusion-detection-imbalance"
 keywords:
   - network intrusion detection
   - class imbalance

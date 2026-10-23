@@ -12,13 +12,13 @@ checkpoints/
 *.npy
 *.npz
 
-# 成品文档（预印本 PDF/DOCX 已在 ChinaXiv 公开，仓库不再分发）
-paper/preprint/
-paper/thesis/
+# 成品文档：终版 PDF/DOC 不入库（ChinaXiv DOI 托管；docx 可由 docgen 重建）
+# preprint/ 收 md 源文件、ChinaXiv 提交版 docx 与补充材料包
 paper/template_chinaxiv/
-*.docx
-*.doc
 *.pdf
+*.doc
+*.docx
+!paper/preprint/*.docx
 
 # 个人身份材料（绝不入库）
 *学籍*

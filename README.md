@@ -61,13 +61,19 @@
 │   └── redteam/           三轮独立对抗审计台账（37 项问题闭环留痕）
 ├── figures/               论文全部插图（PNG 200dpi）
 ├── paper/chapters/        论文正文各章（Markdown）
+├── paper/preprint/        ChinaXiv 预印本源（md / 提交版 docx / 补充材料包 / 转换脚本）
+├── paper/thesis/          论文初稿（Markdown）
+├── paper/docgen/          docx/PDF 组装工具链（generate.js + 导出脚本）
+├── paper/参考文献核对记录.md   17 条参考文献逐条核对来源留痕
 ├── data/README.md         UNSW-NB15 获取方式、SHA-256 指纹与许可引用
 ├── CITATION.cff           引用元数据
 └── PROGRESS.md            逐周工作检查清单（完整过程记录）
 ```
 
-> **本仓库不含**原始数据集（体积大且第三方所有）、预印本 PDF/DOCX 成品、
-> 以及任何个人身份材料。复现所需的一切证据以 `reports/` 下的报告与 CSV 为准。
+> **本仓库不含**原始数据集（体积大且第三方所有）、预印本终版 PDF（已由 ChinaXiv
+> DOI [10.12074/202609.00078](https://doi.org/10.12074/202609.00078) 托管，可由
+> `paper/docgen/` 重建）、以及任何个人身份材料与校内文件。复现所需的一切证据以
+> `reports/` 下的报告与 CSV 为准。
 
 ## 复现
 
